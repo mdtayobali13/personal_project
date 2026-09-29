@@ -15,7 +15,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.example.flutter_riverpod_templete"
+    namespace = "com.bd.bkk"
     compileSdk = 36
     ndkVersion = "29.0.14033849"
     buildToolsVersion = "36.0.0"
@@ -32,7 +32,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.flutter_riverpod_templete"
+        applicationId = "com.bd.bkk"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -66,13 +66,6 @@ android {
     buildTypes {
     debug {
         signingConfig = signingConfigs.getByName("debug")
-        isMinifyEnabled = true
-        isShrinkResources = true
-        proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        ndk {
-         abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a", "x86_64"))
-         debugSymbolLevel = "FULL"
-        }
     }
     release {
         signingConfig = signingConfigs.getByName("release")
