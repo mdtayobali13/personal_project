@@ -78,7 +78,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.example.flutter_riverpod_template</string>
+			<string>com.bd.bkk</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>paymentSuccess</string>

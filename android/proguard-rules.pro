@@ -14,8 +14,8 @@
 
 
 
-# Keep Unique App ID (Change "com.example_app" to your real package name)
--keep class com.example.flutter_getx_project_template.** { *; }
+# Keep Unique App ID
+-keep class com.bd.bkk.** { *; }
 
 
 
